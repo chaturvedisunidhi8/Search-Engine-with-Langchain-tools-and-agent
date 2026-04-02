@@ -50,7 +50,7 @@ if (prompt := st.chat_input("Ask something...")):
         llm,
         agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         handle_parsing_errors=True
-    )
+    ) 
 
     # Stream and display assistant reply
     with st.chat_message("assistant"):
