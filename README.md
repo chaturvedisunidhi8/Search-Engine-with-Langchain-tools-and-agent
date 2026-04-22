@@ -12,13 +12,13 @@ Smart Web Search:
 Integrates multiple LangChain search tools (like DuckDuckGo, Wikipedia, Arxiv, etc.) to fetch real-time information .
 
 Agent-Based Intelligence:
-Uses LangChain Agents to decide which tool to use for the best result — think of it as an AI brain choosing the right path 💡🤔.
+Uses LangChain Agents to decide which tool to use for the best result — think of it as an AI brain choosing the right path .
 
 Conversational Interface:
-Ask queries in plain English, and get concise, context-aware answers 💁‍♀️💬.
+Ask queries in plain English, and get concise, context-aware answers .
 
  Dynamic Tool Integration:
-Supports multiple data sources and can be easily extended with new tools 🔧📡.
+Supports multiple data sources and can be easily extended with new tools .
 
  Summarization & Explanation:
 Provides summarized or detailed insights from multiple sources for quick understanding .
