@@ -43,7 +43,7 @@ if (prompt := st.chat_input("Ask something...")):
     # Initialize LLM and tools
     llm = ChatGroq(groq_api_key=api_key, model="llama-3.1-8b-instant", streaming=True)
     tools = [search, wiki, arxiv]
-
+ 
     # Create the agent
     search_agent = initialize_agent(
         tools,
