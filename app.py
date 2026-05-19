@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from langchain_groq import ChatGroq
 from langchain_community.tools import ArxivQueryRun, WikipediaQueryRun
-from langchain_community.utilities import (
+from langchain_community.utilities import ( 
     WikipediaAPIWrapper,
     ArxivAPIWrapper,
     DuckDuckGoSearchAPIWrapper,
