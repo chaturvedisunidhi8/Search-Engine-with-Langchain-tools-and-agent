@@ -55,6 +55,6 @@ if (prompt := st.chat_input("Ask something...")):
     # Stream and display assistant reply 
     with st.chat_message("assistant"):
         st_cb = StreamlitCallbackHandler(st.container())    
-        response = search_agent.run(prompt, callbacks=[st_cb])     pass prompt
+        response = search_agent.run(prompt, callbacks=[st_cb])     ass prompt
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.write(response)
