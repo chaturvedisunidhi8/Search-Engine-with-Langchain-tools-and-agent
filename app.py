@@ -19,7 +19,7 @@ arxiv = ArxivQueryRun(api_wrapper=api_wrapper_arxiv)
 
 search = DuckDuckGoSearchAPIWrapper()
 
-#  Streamlit UI 
+# Streamlit UI 
 st.title("LangChain Chat With Search 🔍")
 st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your Groq API key:", type="password")
