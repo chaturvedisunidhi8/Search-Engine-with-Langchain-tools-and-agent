@@ -52,7 +52,7 @@ if (prompt := st.chat_input("Ask something...")):
         handle_parsing_errors=True
     ) 
 
-    # Stream and display assistant reply
+    # Stream and display assistant reply 
     with st.chat_message("assistant"):
         st_cb = StreamlitCallbackHandler(st.container())  # ✅ fixed
         response = search_agent.run(prompt, callbacks=[st_cb])  # ✅ pass prompt
