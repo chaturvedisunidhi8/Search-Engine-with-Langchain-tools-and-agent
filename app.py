@@ -8,7 +8,7 @@ from langchain_community.utilities import (
     DuckDuckGoSearchAPIWrapper,
 )
 from langchain.agents import initialize_agent, AgentType
-from langchain.callbacks import StreamlitCallbackHandler
+from langchain.callbacks import StreamlitCallbackHandler 
 
 # --- Tools ---
 api_wrapper_wiki = WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=250)
