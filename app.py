@@ -24,7 +24,7 @@ st.title("LangChain Chat With Search 🔍")
 st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your Groq API key:", type="password")
 
-#  Chat history 
+# Chat history 
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {"role": "system", "content": "You are a helpful assistant that helps people find information."}
